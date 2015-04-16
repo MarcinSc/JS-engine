@@ -20,4 +20,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:git@github.com:marcinsc/JS-engine.git</connection>
+        <url>scm:git:git@github.com:marcinsc/JS-engine.git</url>
+        <developerConnection>scm:git:git@github.com:marcinsc/JS-engine.git</developerConnection>
+    </scm>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.0-beta-9</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
